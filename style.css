@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+  background-color: rgb(192, 192, 192);
+}
+
+p {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#randomNumber {
+  display: block;
+  text-align: center;
+}
+
+.bxs-square1 {
+  color: rgb(255, 255, 255);
+  font-size: 250px;
+}
+
+.bxs-square {
+  color: rgb(255, 255, 255);
+  font-size: 250px;
+}
+
+.buttons {
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  transition: all 0.25s;
+}
+
+.red-color {
+  color: red;
+}
+
+.black-color {
+  color: black;
+}
+
+.buttons:hover {
+  width: 125px;
+  height: 75px;
+}
+
+#redBtn {
+  background-color: red;
+}
+
+#blackBtn {
+  background-color: black;
+}
+
+.budget-class {
+  margin-top: 100px;
+}
+
+.add-button {
+  margin-top: 30px;
+  width: 150px;
+  height: 100px;
+  font-size: 25px;
+  color: rgb(65, 179, 70);
+  background-color: rgb(39, 104, 42);
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px #888888;
+  transition: all 0.25s;
+}
+
+.add-button:hover {
+  background-color: rgb(65, 179, 70);
+  color: rgb(39, 104, 42);
+}
+
+#yourBudget {
+  margin-bottom: 15px;
+}
+
+#budget {
+  display: inline-block;
+  font-size: 50px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px #888888;
+  background-color: gray;
+}
